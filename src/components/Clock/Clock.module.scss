@@ -1,0 +1,39 @@
+@mixin font {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px 25px 5px;
+  max-width: 1290px;
+  margin: 0 auto;
+
+  &__box {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  &__day {
+    @include font;
+  }
+
+  &__greetings {
+    @include font;
+    font-weight: 500;
+  }
+
+  &__time {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: start;
+  }
+}

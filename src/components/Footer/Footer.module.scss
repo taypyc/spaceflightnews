@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(141, 153, 174, 0.5);
+
+  &__link {
+    display: flex;
+    text-decoration: none;
+    color: #2b2d42;
+    transition: 0.5s;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2b2d42;
+    transition: 0.5s;
+  }
+
+  &__title:hover {
+    color: #2e3474;
+    transition: 0.5s;
+  }
+
+  &__icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #2b2d42;
+    transition: 0.5s;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
