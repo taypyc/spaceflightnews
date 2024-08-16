@@ -1,5 +1,6 @@
 {
   "name": "spaceflightnews-app",
+  "homepage": "https://flight-news.vercel.app/fresh-news",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
